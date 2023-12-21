@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+*{
+    font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    align-items: right;
+    justify-content: flex-end;
+    
+}
+
+nav a {
+    padding: 20px;
+    color: black;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: grey;
+}
+
+.hero-screen{
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 100px;
+    background-color: #f2fdff;
+}
+
+#hero-a{
+    font-size: 3em;
+    margin-top:60px;
+    margin-bottom:0;
+    
+}
+
+#hero-b{
+    font-size: 5em;
+    font-weight: 1000;
+    margin-top:0;
+    margin-bottom:40px;
+}
+
+#subtitle{
+    font-size: 1em;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+.icon-bar{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-bar img{
+    padding: 4px;
+    width: 40 px;
+    max-width: 40px;
+    length: auto;
+    max-length: 40px;
+}
+
+#past-screen-id{
+    margin: 0;
+    border-style: solid;
+    border-radius: 2px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 0px;
+    border-color: grey;
+    padding-top: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 40px;
+    
+    background-color: #dff5f4;
+}
+
+#past-screen-id:hover {
+    background-color: whitesmoke;
+}
+
+#present-screen-id{
+    margin: 0;
+    border-style: solid;
+    border-radius: 2px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 0px;
+    border-color: grey;
+    padding-top: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 40px;
+    
+    background-color: #cce7f0;
+    min-height: 300px;
+}
+
+#present-screen-id:hover {
+    background-color: whitesmoke;
+}
+
+#future-screen-id{
+    margin: 0;
+    border-style: solid;
+    border-radius: 2px;
+    border-left: 0px;
+    border-right: 0px;
+    border-color: grey;
+    padding-top: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 40px;
+    
+    background-color: #accae3;
+    min-height: 300px;
+}
+
+#future-screen-id:hover {
+    background-color: whitesmoke;
+}
+
+.contact-page{
+    padding-top: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+#contact-page{
+    padding-bottom: 40px;
+}
+
+#footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
